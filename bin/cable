@@ -1,2 +1,4 @@
 #!/bin/bash
+
+# run's puma with cable's config rack file
 bundle exec puma -p 28080 cable/config.ru
